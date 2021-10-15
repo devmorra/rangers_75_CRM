@@ -1,3 +1,5 @@
+@import 'theme.css';
+
 .radioTestContainer{
     display: flex;
     flex-direction: row;
@@ -34,12 +36,60 @@
     width: 0;
 }
 
+@keyframes radio-pulse-checked{
+    0%{
+        border-color: var(--main-bg-color);
+        box-shadow: 0 0 0px var(--main-bg-color);
+    }
+    50%{
+        border-color: var(--main-bg-color);
+        box-shadow: 0 0 10px var(--main-bg-color);
+    }
+    100%{
+        border-color: var(--main-bg-color);
+        box-shadow: 0 0 30px #fff;
+    }
+}
+
+@keyframes radio-pulse-hover{
+    0%{
+        border-color: lightblue;
+        box-shadow: 0 0 0px lightblue;
+    }
+    50%{
+        border-color: lightblue;
+        box-shadow: 0 0 30px lightblue;
+    }
+    100%{
+        border-color: lightblue;
+        box-shadow: 0 0 50px #fff;
+    }
+}
+
+
+
 .css-radio-input:checked + .css-radio-box{
     background-color: blue;
+    animation-name: radio-pulse-checked;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
 }
 
 .css-radio-input:hover + .css-radio-box{
     background-color: lightblue;
+    animation-name: radio-pulse-hover;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.css-radio-input:checked + .css-radio-box .css-radio-text{
+    color: white;
+}
+
+.css-radio-input:hover + .css-radio-box .css-radio-text{
+    color: black;
 }
 
 .css-radio-box{
@@ -57,8 +107,6 @@
 
 }
 
-
-
 .css-radio-image{
     max-width: 50%;
 }
@@ -68,11 +116,45 @@
     font-size: 2.5vw;
 }
 
+
 .css-radio-related-content{
     display: none;
 }
 
-#radio1:checked ~ #content1{
-    display: block;
-    position: absolute;
+@keyframes radio-content-slidein{
+    from{
+        opacity: 0%;
+        /* visibility: hidden; */
+    }
+    to{
+        opacity: 100%;
+        /* visibility: visible; */
+    }
+}
+
+@keyframes radio-content-slideout{
+    from{
+        opacity: 100%;
+        /* visibility: visible; */
+    }
+    to{
+        opacity: 0%;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+
+.radio-content-slidein{
+    /* opacity: 0%; */
+    animation-name: radio-content-slidein;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    /* animation-delay: 1s; */
+}
+
+.radio-content-slideout{
+    animation-name: radio-content-slideout;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
