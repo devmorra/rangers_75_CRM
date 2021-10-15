@@ -1,0 +1,78 @@
+.radioTestContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.css-body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.css-radio-text-container{
+    width: 100vw;
+}
+
+.css-radio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 10%;
+    height: 15%;
+}
+
+.css-radio-input{
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.css-radio-input:checked + .css-radio-box{
+    background-color: blue;
+}
+
+.css-radio-input:hover + .css-radio-box{
+    background-color: lightblue;
+}
+
+.css-radio-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 10%;
+    padding: 10px;
+
+}
+
+
+
+.css-radio-image{
+    max-width: 50%;
+}
+
+.css-radio-text{
+    margin-top: 20%;
+    font-size: 2.5vw;
+}
+
+.css-radio-related-content{
+    display: none;
+}
+
+#radio1:checked ~ #content1{
+    display: block;
+    position: absolute;
+}
