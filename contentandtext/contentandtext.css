@@ -1,0 +1,14 @@
+*{
+    background-color: salmon;
+    padding: 0%;
+    margin: auto;
+}
+
+
+.box{
+
+    background-color: rosybrown;
+    width: 100px;
+    height: 1200px;
+    margin: 0 auto;
+}
