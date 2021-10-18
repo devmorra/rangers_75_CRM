@@ -1,0 +1,59 @@
+.css-business-needs-container{
+    display: grid;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+
+}
+.css-business-need{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+}
+.css-business-need-image-container{
+    height: 100px;
+    width: 100px;
+}
+.css-business-need-image{
+    max-height: 100%;
+    max-width: 100%;
+}
+.css-business-need-header{
+    font-size: 20pt;
+    font-weight: bold;
+}
+.css-business-need-text{
+
+}
+.css-business-need-learn-more{
+    display: flex;
+    border: 5px solid grey;
+    border-radius: 10px;
+    width: 55%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5%;
+}
+#email-dashboards{
+    grid-row: 1;
+    grid-column: 1;;
+}
+#task-management{
+    grid-row: 1;
+    grid-column: 2;;
+}
+#analytics{
+    grid-row: 2;
+    grid-column: 1;;
+}
+#project-calendars{
+    grid-row: 2;
+    grid-column: 2;;
+}
