@@ -1,14 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
-    background-color: salmon;
-    padding: 0%;
-    margin: auto;
+    box-sizing: border-box;
+     padding: 0;
+    margin: 0;
 }
 
 
-.box{
+body{
+    font-family: 'San serif';
 
-    background-color: rosybrown;
-    width: 100px;
-    height: 1200px;
-    margin: 0 auto;
+}
+.container{
+    position: absolute;
+    width: 1019px;
+    height: 577px;
+} */
+
+.card{
+    border-style: solid;
+}
+.left{
+    /* position: ; */
+    overflow: hidden;
+    background-image: url("/assets/CRM-Main/Collect-info.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px 0 0 15px;
+    border: 1px solid lightgray;
+    width: 33%;
+    /* height: ; */
+    /* margin-left: 50%; */
+    
+}
+
+.right{
+    /* position: ; */
+    border-radius: 0 15px 15px 0;
+    width: 66%;
+    /* height: 580px; */
+    /* margin-right: 100%; */
+    background-color: #0C59F2;
+    background-position: right;
+    border: 1px solid lightgray;
+}
+
+.bluewhitebox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
