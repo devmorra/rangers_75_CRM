@@ -1,0 +1,11 @@
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.subflexbox{
+    display: flex;
+    flex-direction: column;
+}

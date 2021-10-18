@@ -76,3 +76,6 @@
 .clip-polygon {
     clip-path: polygon(50% 0%, 100% 0, 93% 32%,90% 40%, 87% 48%, 80% 59%, 63% 78%, 44% 89%, 25% 95%, 0 98%, 0% 35%, 0 0)
 }
+.bg-primary{
+    background-color: blue;
+}

@@ -1,0 +1,82 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.css-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.css-centered-page-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.css-centered-page-text-header{
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 24pt;
+    font-weight: bold;
+}
+.css-centered-page-text{
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+.css-dualboxleft{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    height: auto;
+    border-radius: 25px 0 0 25px;
+    border: 1px solid grey;
+    padding: 25px;
+}
+.css-dualboxright{
+    width: 70%;
+    height: auto;
+    border-radius: 0 25px 25px 0;
+    color: white;
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 25px;
+}
+.css-dualbox-textheader{
+    font-size: 24pt;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.css-dualbox-text{
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.css-dualbox-learnmore{
+    display: flex;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 25%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5%;
+}
+.css-dualbox-link, .css-dualbox-link:visited{
+    color: white;
+    text-decoration: underline;
+}
+.css-dualcolorbox{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    margin: 10%;
+    /* margin-right: 10%; */
+}
+.css-dualboximage{
+    max-width: 100%;
+    max-height: 100%;
+}

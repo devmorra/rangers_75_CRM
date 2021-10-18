@@ -21,7 +21,8 @@
 }
 .css-header-container{
     display:flex;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
    
 
 }
@@ -33,18 +34,13 @@
 }
 .css-header-image-container{
     height: auto;
-    
-
 }
 #header-image{
     max-height:  100%;
-    width:100%;
+    width: 100%;
 }
 h1{
     font-size: 40pt;
-}
-h3{
-    font-size: ;
 }
 #sign-in{
 color: grey
@@ -52,4 +48,11 @@ color: grey
 #sign-in2{
     color:grey;
     font-weight: bold;
+}
+#line-break{
+    height: 1px;
+    width: 66%;
+    background-color: grey;
+    align-self: center;
+    margin-bottom: 50px;
 }
