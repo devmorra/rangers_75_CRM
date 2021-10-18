@@ -1,17 +1,21 @@
 .navbar {
-    color: purple;
+
     background-color:white;
     font-family: 'Courier New', Courier, monospace;
-    text-align: end;
-
+    justify-content: space-evenly;
 }
-/* btn-primary{ */
+.button-primary{
+    align-self: flex-end
+}
 
 /* .navbar-nav{ */
 
-.container1{
+.container{
+    justify-content: space-around;
     text-align: center;
+    align-content: justify;
 }
 
-.btn-group{}
-    
+.btn-group{
+    align-self: flex-end
+}
