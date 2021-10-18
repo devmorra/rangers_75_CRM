@@ -1,17 +1,55 @@
 .navbar {
-    color: purple;
+
     background-color:white;
     font-family: 'Courier New', Courier, monospace;
-    text-align: end;
-
+    justify-content: space-evenly;
 }
-/* btn-primary{ */
+.button-primary{
+    align-self: flex-end
+}
 
 /* .navbar-nav{ */
 
-.container1{
+.container{
+    justify-content: space-around;
     text-align: center;
+    align-content: justify;
 }
 
-.btn-group{}
+.btn-group{
+    align-self: flex-end
+}
+.css-header-container{
+    display:flex;
+    margin: 10%;
+   
+
+}
+.css-header-textcontainer{
+    margin-right: 10;
+    height: auto;
+    width: 60%;
     
+}
+.css-header-image-container{
+    height: auto;
+    
+
+}
+#header-image{
+    max-height:  100%;
+    width:100%;
+}
+h1{
+    font-size: 40pt;
+}
+h3{
+    font-size: ;
+}
+#sign-in{
+color: grey
+}
+#sign-in2{
+    color:grey;
+    font-weight: bold;
+}
