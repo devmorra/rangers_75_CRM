@@ -1,0 +1,78 @@
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    max-height: auto;
+    max-width: auto;
+}    
+
+.image-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.image-wrapper2{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+}
+
+.ml-n1{
+    margin-left: -3rem !important;
+}
+
+.circle-icon{
+    content:'';
+    position: sticky;
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+    border: 1px solid silver;
+    vertical-align:middle;
+    padding: 10px;
+}
+
+.f-circle-icon{
+    content:'';
+    position: sticky;
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+    border: 1px solid silver;
+    vertical-align:middle;
+    padding: 10px 14px 10px 14px;
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: auto;
+    max-height: auto;
+    width: auto;
+    max-width:auto;
+}
+
+.wrap{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid black;
+}
+
+.card-img-bottom{
+    border: 1px solid black;
+    height: 60vh;
+    width: 60vh;
+    max-width: 100;
+    max-height: 100;
+}
+
+.clip-polygon {
+    clip-path: polygon(50% 0%, 100% 0, 93% 32%,90% 40%, 87% 48%, 80% 59%, 63% 78%, 44% 89%, 25% 95%, 0 98%, 0% 35%, 0 0)
+}
