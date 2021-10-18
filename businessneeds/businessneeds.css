@@ -1,0 +1,53 @@
+*{
+    align-self: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+
+}
+
+
+.EmailDashboards{
+    background-image: url("/assets/CRM-Main/email.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    image-rendering: auto;
+    height: 1px; 
+    width: 1px;
+    position: relative;
+
+}
+
+.TaskManagement{
+    background-image: url("/assets/CRM-Main/task.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10px; 
+    width: 10px;
+
+}
+
+.Analytics{
+    background-image: url("/assets/CRM-Main/analytics.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10px;
+    width: 10px;
+}
+
+.ProjectCalendars{
+    background-image: url("/assets/CRM-Main/projectcalendar.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10px;
+    width: 10px;
+}
+
+.col{
+    flex: auto;
+    width: auto;
+}
