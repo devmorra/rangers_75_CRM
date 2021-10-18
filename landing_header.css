@@ -19,6 +19,37 @@
 .btn-group{
     align-self: flex-end
 }
-.css-container-header{
+.css-header-container{
+    display:flex;
+    margin: 10%;
+   
+
+}
+.css-header-textcontainer{
+    margin-right: 10;
+    height: auto;
+    width: 60%;
     
+}
+.css-header-image-container{
+    height: auto;
+    
+
+}
+#header-image{
+    max-height:  100%;
+    width:100%;
+}
+h1{
+    font-size: 40pt;
+}
+h3{
+    font-size: ;
+}
+#sign-in{
+color: grey
+}
+#sign-in2{
+    color:grey;
+    font-weight: bold;
 }
